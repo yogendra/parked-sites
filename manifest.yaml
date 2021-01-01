@@ -1,15 +1,16 @@
 ---
-application:
-  name: hosted-site
-  routes:
-    - route: www.build-with.cf
-    - route: www.iluv.cf
-    - route: www.push2.cf
-    - route: www.run-on.cf
-    - route: www.runs-on.cf
-    - route: hoted-site.cfapp.io
-  buildpacks:
-    - staticfile_buildpack
-  memory: 256M
-  disk_quota: 10M
-  stack: cflinuxfs3
+applications:
+  - name: hosted-site
+    path: public
+    routes:
+      - route: www.build-with.cf
+      - route: www.iluv.cf
+      - route: www.push2.cf
+      - route: www.run-on.cf
+      - route: www.runs-on.cf
+      - route: yogi-hosted-site.cfapps.io
+    buildpacks:
+      - staticfile_buildpack
+    memory: 256M
+    disk_quota: 10M
+    stack: cflinuxfs3

@@ -1,1 +1,8 @@
 .cf/
+.envrc
+.firebase/
+.firebaserc
+.gitignore
+firebase-debug.log
+firebase.json
+manifest.yaml

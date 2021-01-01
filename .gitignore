@@ -1,1 +1,4 @@
 .cf/
+.firebase/
+firebase-debug.log
+**.log
