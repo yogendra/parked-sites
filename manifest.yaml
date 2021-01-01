@@ -1,14 +1,14 @@
 ---
 applications:
-  - name: hosted-site
-    path: public
+  - name: parked-sites
+    path: build
     routes:
       - route: www.build-with.cf
       - route: www.iluv.cf
       - route: www.push2.cf
       - route: www.run-on.cf
       - route: www.runs-on.cf
-      - route: yogi-hosted-site.cfapps.io
+      - route: yogi-parked-sites.cfapps.io
     buildpacks:
       - staticfile_buildpack
     memory: 256M
