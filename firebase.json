@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "yrampuria-parking",
     "public": "build",
     "ignore": [
       "firebase.json",
